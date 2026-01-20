@@ -1,0 +1,65 @@
+{
+  "name": "infographic-cli",
+  "version": "0.5.0",
+  "description": "Instantly create stunning SVG infographics from simple declarative syntax. Render from strings, files, or stdin.",
+  "license": "MIT",
+  "author": "lyw405",
+  "type": "module",
+  "bin": {
+    "ifgc": "./dist/cli.js",
+    "infographic": "./dist/cli.js"
+  },
+  "engines": {
+    "node": "^18.19 || >=20.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist-types/index.d.ts"
+    }
+  },
+  "types": "./dist-types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src",
+    "test": "vitest --run",
+    "test:examples": "vitest --run __tests__/integration/examples.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@antv/infographic": "^0.2.11",
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.53.1",
+    "@typescript-eslint/parser": "^8.53.1",
+    "eslint": "^9.39.2",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.0.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "files": [
+    "dist",
+    "dist-types",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "infographic",
+    "infographics",
+    "cli",
+    "svg",
+    "generator",
+    "visualization",
+    "charts",
+    "diagrams",
+    "antv",
+    "templates",
+    "graphics",
+    "command-line"
+  ]
+}

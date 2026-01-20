@@ -1,0 +1,20 @@
+infographic quadrant-quarter-simple-card
+data
+  title Risk Control Analysis
+  desc Risk frequency vs. loss severity analysis
+  items
+    - label High Loss High Frequency
+      desc Directly avoid risks
+      icon plane
+      illus notify
+    - label Low Loss High Frequency
+      desc Implement risk control measures
+      icon earth
+      illus coffee
+    - label High Loss Low Frequency
+      desc Transfer risk through insurance
+      icon plane
+    - label Low Loss Low Frequency
+      desc Accept the risk
+      icon earth
+      illus invest

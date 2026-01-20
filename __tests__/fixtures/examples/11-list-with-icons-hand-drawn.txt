@@ -1,0 +1,38 @@
+infographic list-row-horizontal-icon-arrow
+theme hand-drawn
+data
+  title Customer Growth Engine
+  desc Multi-channel reach and repeat purchases
+  items
+    - label Lead Acquisition
+      value 18.6
+      desc Channel investment and content marketing
+      icon plane
+    - label Conversion Optimization
+      value 12.4
+      desc Lead scoring and automated follow-ups
+      icon earth
+    - label Loyalty Boost
+      value 9.8
+      desc Membership programs and benefits
+      icon plane
+    - label Brand Advocacy
+      value 6.2
+      desc Community rewards and referral loops
+      icon earth
+    - label Customer Success
+      value 7.1
+      desc Training support and activation
+      icon plane
+    - label Product Growth
+      value 10.2
+      desc Trial conversion and feature nudges
+      icon earth
+    - label Data Insights
+      value 8.5
+      desc Key metrics and attribution analysis
+      icon plane
+    - label Ecosystem Partnership
+      value 5.4
+      desc Co-marketing and resource exchange
+      icon earth

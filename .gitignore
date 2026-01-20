@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-types/
+*.log
+.DS_Store
+*.ifgc
+*.svg
+test-ssr.js
+tsconfig.tsbuildinfo
